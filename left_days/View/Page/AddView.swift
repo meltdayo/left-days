@@ -16,7 +16,7 @@ struct AddView: View {
         NavigationView {
             Form {
                 Section(header: Text("タイトル")){
-                    TextField("どんな起源？", text: $title)
+                    TextField("どんな期限？", text: $title)
                 }
                 Section(header: Text("何歳までに")) {
                     Stepper(value: $age, in: 0...100) {
